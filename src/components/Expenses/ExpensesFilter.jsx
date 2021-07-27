@@ -8,7 +8,7 @@ const ExpensesFilter = ({ onOptionChange, selected }) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
-        <label>Переключение по годам</label>
+        <label>Выберите год</label>
         <select value={selected} onChange={dropdownChangeHandler}>
           <option value="2022">2022</option>
           <option value="2021">2021</option>
